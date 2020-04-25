@@ -11,10 +11,26 @@
     <a href="howitworks.html">How it Works</a>
     <!---ADD MORE--->
     <h3>⬇️ Our super cool tweets ⬇️</h3>
-    <center>
-      <a class="twitter-timeline" href="https://twitter.com/SenateStalker?ref_src=twsrc%5Etfw">Tweets by SenateStalker</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </center>
+    <div class="twitterborder">
+      <div class="table">
+        <div class="table-cell">
+          <a class="twitter-timeline tw-align-center" href="https://twitter.com/senatestalker" width="400px">Tweets by @senatestalker</a>
+
+          <script>
+            ! function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0],
+                  p = /^http:/.test(d.location) ? 'http' : 'https';
+              if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p + "://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+              }
+            }(document, "script", "twitter-wjs");
+          </script>
+        </div>
+      </div>
+    </div>
     <p>Have some suggestions, feedback, or cash? <a href="mailto:senatestalker@gmail.com?Subject=Feedback" target="_top">Send us mail!</a></p>
-    
   </body>
 </html>
