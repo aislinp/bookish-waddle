@@ -1,9 +1,27 @@
 body {
-  background: white;
+  font-family: calibri;
+  text-align: center;
+  background: lightgreen;
 }
 p {
-  color: black;
+  color: white;
 }
 h1 {
   font-weight: bold;
+  color: white;
+}
+h2 {
+  color: white;
+}
+a {
+  font-weight: bold;
+  color: #E4959E;
+  text-decoration: underline;
+}
+a:hover {
+  color: #F3B3A6;
+}
+.special {
+  font-weight: bold;
+  color: bisque;
 }
