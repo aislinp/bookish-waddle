@@ -17,6 +17,7 @@ a {
   font-weight: bold;
   color: #E4959E;
   text-decoration: underline;
+  vertical-align: middle;
 }
 a:hover {
   color: #F3B3A6;
